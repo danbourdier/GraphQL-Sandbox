@@ -1,12 +1,17 @@
 # Summary
-Spins up a local instance with a pseudo-backend for testing graphQL requests from a frontend client(Apollo Client in this case). Refer to [helpful links](#helpful-links) below for the link. Once there, connect to your local instance to begin making requests. See snippet below for context.
+Spins up a local instance with a pseudo-backend for testing graphQL requests from a frontend client(Apollo Client in this case). Refer to [helpful links](#helpful-links) below for the link. Once there, connect to your local instance to begin making requests (snippet below for context). 
 
-![Apollo web client]("./SiteSnippet.png")
+For query/mutation templates to start with, see: `./src/requestTemplates.js`.
+
+![Apollo web client](/SiteSnippet.png)
 
 
 # Setup
 1. Run `npm i`
 2. Run `npm run start`
+3. Go to #helpful links #1 and connect to port 8000 in the top left corner.  
+
+
 
 # Syntax
 1. Query -
