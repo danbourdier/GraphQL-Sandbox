@@ -1,3 +1,13 @@
+# Summary
+Spins up a local instance with a pseudo-backend for testing graphQL requests from a frontend client(Apollo Client in this case). Refer to [helpful links](#helpful-links) below for the link. Once there, connect to your local instance to begin making requests. See snippet below for context.
+
+![Apollo web client]("./SiteSnippet.png")
+
+
+# Setup
+1. Run `npm i`
+2. Run `npm run start`
+
 # Syntax
 1. Query -
 2. Mutation -
@@ -30,7 +40,7 @@ Overfetching and underfetching in applications oftens means n calls to enable a 
 3. one of several motivations for graphql being created was to avoid *api churn and burn*. However, this arguably requires same amount of effort to address for nested query for filtering table entity associations. E.g: querying an author while filtering their books according to time ranges provided.
 4. 
 
-# Helpful Links
-1. GraphQL Sandbox: https://studio.apollographql.com/sandbox/explorer
+### Helpful Links <a id="helpful-links"></a>
+1. GraphQL client Sandbox: https://studio.apollographql.com/sandbox/explorer
 2. GraphQL Docs: https://graphql.org/learn/queries/
 3. 
